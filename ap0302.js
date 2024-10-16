@@ -22,8 +22,6 @@ function init() {
   const scene = new THREE.Scene();
 
   // 座標軸の設定
-  const axes = new THREE.AxesHelper(18);
-  scene.add(axes);
   
   // 素材の設定
   const glassMaterial = new THREE.MeshPhongMaterial({color: 'skyblue'});
